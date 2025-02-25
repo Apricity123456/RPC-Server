@@ -1,2 +1,2 @@
-add_library(headers INTERFACE)
-target_include_directories(headers INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+# 设置 include 目录，确保所有子目录能找到头文件
+install(DIRECTORY ${CMAKE_SOURCE_DIR}/include/ DESTINATION include)

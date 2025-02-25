@@ -1,4 +1,4 @@
-#include <47func.h>
+#include <iostream>
 #include <SimpleAmqpClient/SimpleAmqpClient.h>
 #include <string>
 struct MqInfo{
