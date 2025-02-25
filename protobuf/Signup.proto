@@ -1,0 +1,14 @@
+// Signup.proto IDL接口定义语言文件
+// 指定protobuf的版本
+syntax="proto3";
+// 定义消息 一般可以把函数的所有的参数放入一个消息当中
+message ReqSignup {
+    //字段拥有三种属性
+    // required 必须出现的 （默认）
+    // optional 可以不出现的  实现可变参数
+    // repeated 可以重复出现若干次的 实现数组参数
+
+    // 定义字段时，需要指明 类型 名称 编号
+    string username = 1;// = 后面的1，就是字段的编号
+    string password = 2;
+}

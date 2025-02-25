@@ -1,0 +1,15 @@
+syntax="proto3";
+// rpc的参数设计
+message ReqSignup{
+    string username = 1;
+    string password = 2;
+}
+// rpc的返回值设计
+message RespSignup{
+    int32 code = 1;
+    string message = 2;
+}
+// rpc的函数声明
+service UserService{
+    rpc Signup(ReqSignup) returns (RespSignup) {}
+}
