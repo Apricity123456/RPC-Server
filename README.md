@@ -9,47 +9,6 @@ Frontend UI for user interactions.
 Integration with AliyunOSS (optional).
 Project Structure
 
-RPC-Server
-├── CMakeLists.txt
-├── include/            # Header files
-│   ├── Hash.h
-│   ├── rpc.pb.h
-│   ├── rpc.srpc.h
-│   ├── Token.h
-├── protobuf/           # Protobuf-related files
-│   ├── CMakeLists.txt
-│   ├── Signup.pb.cc
-│   ├── Signup.pb.h
-│   ├── Signup.proto
-│   └── test.cc
-├── rpc/                # RPC implementation
-│   ├── client.pb_skeleton.cc
-│   ├── rpc.pb.cc
-│   ├── rpc.pb.h
-│   ├── rpc.proto
-│   ├── rpc.srpc.h
-│   ├── server.pb_skeleton.cc
-├── src/                # Server implementation
-│   ├── aliyunoss.cc
-│   ├── backup.cc
-│   ├── main.cc
-│   ├── Hash.cc
-│   ├── mq.cc
-│   ├── mq_consumer.cc
-│   ├── rpc.pb.cc
-│   ├── Token.cc
-├── static/             # Frontend assets
-│   ├── img/avatar.jpeg
-│   ├── js/auth.js
-├── test/               # Unit tests
-│   ├── CMakeLists.txt
-│   ├── test.cc
-├── web/                # Frontend web pages
-│   ├── home.html
-│   ├── index.html
-│   ├── signin.html
-│   ├── signup.html
-└── README.md           # Documentation
 Setup & Installation
 Install Dependencies
 Ensure you have the following installed:
@@ -135,4 +94,4 @@ Contact
 For any issues or contributions, feel free to open an issue or reach out to:
 
 Email: yangshangyu98@gmail.com
-GitHub: 
+
