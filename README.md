@@ -96,5 +96,4 @@ Open a Pull Request.
 Contact
 For any issues or contributions, feel free to open an issue or reach out to:
 
-Email: yangshangyu98@gmail.com
 
